@@ -1,12 +1,9 @@
 ## IMPORT MODULES
-import datetime
-import pprint
 import mod_OpenFromCSV_Extract2ListOfDictionaries
 import mod_Connect2MongoDBServer
 import mod_Connect2DB
 import mod_InsertData2DB
 import mod_GetAllDataFromDB
-import mod_GetOneDatumFromDB
 
 ## DECLARE VARIABLES 
 ## DATA OF VARIABLES TO BE EXTRACTED FROM CSV FILE (BELOW)
