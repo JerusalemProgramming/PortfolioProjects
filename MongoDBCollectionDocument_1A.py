@@ -1,4 +1,4 @@
-MongoDBCollectionDocument_1A = {
+MongoDBCollectionDocument_1A = { ## PYTHON DICTIONARY OBJECT // MONGO DB DOCUMENT OBJECT // JSON OBJECT
 
 	'Item_ID_NameOfDealer' : 'A_1234567',  ## Internal Item ID Number used by Dealer
 	'Item_Path2Picture' : '/images/img1.jpg', ## Computer file path to image/picture file of the Item
