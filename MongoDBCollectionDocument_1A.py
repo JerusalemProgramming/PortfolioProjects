@@ -14,8 +14,8 @@ MongoDBCollectionDocument_1A = {
 	'Item_Type' : 'NA', ## Type / category info of the Item within Dealer's classification of types/categories
 	'Item_SizeHxW' : 'NA',	## Size HxW info of the Item
 	'Item_Condition' : 'NA', ## Condition info of the Item
-	'Item_Reference' : 'NA',	## Academic book-references-&-citations info relevant to the Item - if any
-	'Item_Provenance' : 'NA',	## Provenance info of the Item
+	'Item_Reference' : 'NA', ## Academic book-references-&-citations info relevant to the Item - if any
+	'Item_Provenance' : 'NA', ## Provenance info of the Item
 	'Item_MannerOfAcquisition' : 'NA', ## Manner of Acquisition info of the Item, i.e. from where was Item purchased?	
 	'Item_DateOfAcquisition' : 'NA', ## Date of Acquisition info of the Item
 	
