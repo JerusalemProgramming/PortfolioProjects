@@ -2,11 +2,9 @@
 import csv
 
 ## DEFINE FUNCTIONS
-## CONNECT 2 MONGO DB
+## OPEN CSV FILE AND EXTRACT DATA TO LIST OF PYTHON DICTIONARY OBJECTS
 def fn_OpenFromCSV_Extract2ListOfDictionaries():
 
-    ## OPEN CSV FILE AND EXTRACT DATA TO LIST OF PYTHON DICTIONARY OBJECTS
-    
     ## CREATE EMPTY LIST TO BE USED AS LIST OF DICTIONARY OBJECTS
     ListOfDictionaries = list()
     
@@ -32,9 +30,11 @@ def fn_OpenFromCSV_Extract2ListOfDictionaries():
             ## ADDS DICTIONARY OBJECT "ROW" AS LIST ITEM TO LIST, i.e. LIST OF DICTIONARIES
             ListOfDictionaries.append(row)
     
+        ## TESTING PURPOSES PRINT OUTPUT
         print('\n')
-        print("count = ",count)
+        print("WITHIN FUNCTION:  count = ",count)
     
         ## END FOR-LOOP TO READ DATA FROM CSV FILE
     
+    ## RETURN LIST OF DICTIONARY OBJECTS
     return(ListOfDictionaries)
