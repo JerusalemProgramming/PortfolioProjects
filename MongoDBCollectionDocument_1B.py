@@ -24,7 +24,7 @@ MongoDBCollectionDocument_1B = {
 	'Item_Profit' : 'NA', ## If sold, then Profit of Item to be calculated with Item_CostPrice field (below)
 	
 	'Item_DateSold2Client' : 'NA',	## If sold, then Date sold to Client
-  'Item_Sold2WhichClient' : {  ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
+  	'Item_Sold2WhichClient' : {  ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
 		'Client': {  ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
 			'NameLast' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
 			'NameFirst' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
@@ -32,8 +32,8 @@ MongoDBCollectionDocument_1B = {
 			'Telephone' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
 			'Email' : 'NA' ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
 		}
-	}
-    
+	 }
+    	
 	'Item_CostPrice' : 'NA', ## Cost Price of the Item
 	'Item_SalePrice' : 'NA', ## If sold, then Sale Price of the Item
 	'Item_ShippingCosts' : 'NA', ## If sold, then Shipping Costs of sending the Item to Client - if any
