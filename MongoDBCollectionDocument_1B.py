@@ -25,12 +25,12 @@ MongoDBCollectionDocument_1B = { ## PYTHON DICTIONARY OBJECT // MONGO DB DOCUMEN
 	
 	'Item_DateSold2Client' : 'NA',	## If sold, then Date sold to Client
   	'Item_Sold2WhichClient' : {  ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
-		'Client': {  ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
-			'NameLast' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
-			'NameFirst' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
-			'Address' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
-			'Telephone' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
-			'Email' : 'NA' ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
+		'Client_ContactDetails': {  ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
+			'Client_NameLast' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
+			'Client_NameFirst' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
+			'Client_Address' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
+			'Client_Telephone' : 'NA', ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
+			'Client_Email' : 'NA' ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
 		}
 	 }
     	
