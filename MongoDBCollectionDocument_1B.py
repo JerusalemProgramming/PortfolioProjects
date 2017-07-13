@@ -21,7 +21,7 @@ MongoDBCollectionDocument_1B = { ## PYTHON DICTIONARY OBJECT // MONGO DB DOCUMEN
 	
 	'Item_IsSold' : 'NA', ## Is the Item sold?  ## SOLD // NOT SOLD
 	'Item_SalesInvoiceNumber' : 'NA', ## If sold, then Sales Invoice Number of Item
-	'Item_Profit' : 'NA', ## If sold, then Profit of Item to be calculated with Item_CostPrice and Item_SalePrices fields (below)
+	'Item_Profit' : 'NA', ## If sold, then Profit of Item to be calculated with Item_CostPrice and Item_SalePrice fields (below)
 	
 	'Item_DateSold2Client' : 'NA',	## If sold, then Date sold to Client
   	'Item_Sold2WhichClient' : {  ## If sold, then Sold to which Client?  i.e. details of Client who purchased the Item
