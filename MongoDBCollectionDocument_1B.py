@@ -14,8 +14,8 @@ MongoDBCollectionDocument_1B = {
 	'Item_Type' : 'NA', ## Type / category info of the Item within Dealer's classification of types/categories
 	'Item_SizeHxW' : 'NA',	## Size HxW info of the Item
 	'Item_Condition' : 'NA', ## Condition info of the Item
-	'Item_Reference' : 'NA',	## Academic book-references-&-citations info relevant to the Item - if any
-	'Item_Provenance' : 'NA',	## Provenance info of the Item
+	'Item_Reference' : 'NA', ## Academic book-references-&-citations info relevant to the Item - if any
+	'Item_Provenance' : 'NA', ## Provenance info of the Item
 	'Item_MannerOfAcquisition' : 'NA', ## Manner of Acquisition info of the Item, i.e. from where was Item purchased?	
 	'Item_DateOfAcquisition' : 'NA', ## Date of Acquisition info of the Item
 	
@@ -42,9 +42,9 @@ MongoDBCollectionDocument_1B = {
 	'Item_DidSaleIncludeVAT' : 'NA', ## Did Sale of Item include VAT (e.g. either within Israel or VAT in sale overseas)?
 	'Item_VATSALE_HowMuch' : 'NA',	## If Sale of Item included VAT, then How Much VAT was paid (% PERCENTAGE)?
 		
-	'Item_ID_2ndShop' : 'NA',	## Internal Item ID Number used by Dealer - These last 5 Database Key:Value pairs were necessary for prior steps of extracting & merging inventory database info from Dealer's two (2) web sites:  1.) Data was exported to CSV file, 2.) Custom Python programming to Extract, Transform, Load (ETL) = Input Data, Process Data, Output Data
+	'Item_ID_2ndShop' : 'NA', ## Internal Item ID Number used by Dealer - These last 5 Database Key:Value pairs were necessary for prior steps of extracting & merging inventory database info from Dealer's two (2) web sites:  1.) Data was exported to CSV file, 2.) Custom Python programming to Extract, Transform, Load (ETL) = Input Data, Process Data, Output Data
 	'Item_IsImport_2ndShop' : 'NA',	## Is the Item an import thus requiring Import Approval (IA) ID number (above); These last 5 Database Key:Value pairs served as good test controls to confirm integrity of info after extracting & merging inventory database info from Dealer's two (2) web sites
-	'Item_Title_2ndShop' : 'NA',	## Title of the Item on the Dealer's 2nd web site
+	'Item_Title_2ndShop' : 'NA', ## Title of the Item on the Dealer's 2nd web site
 	'Item_SalePrice_2ndShop' : 'NA', ## If sold, then Sale Price of the Item on the Dealer's 2nd web site 
 	'Item_IsInStock_2ndShop' : 'NA' ## Is the Item In Stock on the Dealer's 2nd web site?  This Key:Value pair serves as good test control to test with Item_IsSold field (above) to confirm integrity of info after extracting & merging inventory database info from Dealer's two (2) web sites (above)
 
