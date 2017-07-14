@@ -7,7 +7,10 @@ def fn_InsertData2DB(db, Data2Insert2DB):
 #try:
     ## INSERT DATA INTO DB
     
+    ## INSERTS ONE DICTIONARY OBJECT INTO DB.collection; CREATES DB COLLECTION "inventory"
     #db.inventory.insert_one(Data2Insert2DB)
+    
+    ## INSERTS LIST OF DICTIONARY OBJECTS TO DB.collection; CREATES DB COLLECTION "inventory"
     db.inventory.insert_many(Data2Insert2DB)
     
     ## TEST OUTPUT
