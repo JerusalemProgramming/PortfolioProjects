@@ -13,7 +13,7 @@ It would be possible to track if multiple Items were included in one (1) Sale to
 
 Being a self-taught programmer out of necessity to solve problems, I taught myself to program in Python by separating code into functions, and then separating functions into Python modules that could then be accessed with OBJECT.METHOD DOT.NOTATION.  I thus have come to program in a certain Pythonic Procedural Programming style of importing modules with functions defined within those modules, and then calling functions that are specific to each module as necessary.  I prefix all module names with "mod_" prefix, and I prefix all function names with "fn_" prefix, and I use the same descriptive name for both "mod_" and "fn_" names, thus allowing access via module-dot-function call via PYTHONIC MODULE.FUNCTION format (i.e. similar to CLASS OBJECTS, but without the need to bind data to those objects), i.e. Pythonic procedural functional programming that keeps data separate from functions as much as possible.
 
-The main "root" and/or "\_\_init\_\_.py"-like and/or "flask_run.py"-like initial file for this program has been prefixed with variable prefix "program_", and it - in turn - imports and calls various modules with their "mod_" prefix, and functions within those modules via the "fn_" prefix with the OBJECT-ORIENTED MODULE.FUNCTION DOT.NOTATION.
+The main "root" and/or "\_\_init\_\_.py"-like and/or "flask_run.py"-like initial file for this program has been prefixed with variable prefix "program_", and it - in turn - imports and calls various modules with their "mod_" prefix, and calls functions within those modules via the "fn_" prefix with the OBJECT-ORIENTED MODULE.FUNCTION DOT.NOTATION.
 
 
 
