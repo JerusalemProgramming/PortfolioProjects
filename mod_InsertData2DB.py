@@ -1,7 +1,7 @@
 ## IMPORT MODULES
 
 ## DEFINE FUNCTIONS
-## INSERT 2 DB        
+## INSERT DATA 2 DB        
 def fn_InsertData2DB(db, Data2Insert2DB):
     
 #try:
