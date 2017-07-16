@@ -16,6 +16,7 @@ def fn_GetAllDataFromDB(db):
     print("\n")
     print("WITHIN FUNCTION:  type(DataRetrievedFromDB) = ", type(DataRetrievedFromDB))
     
+    ## RETURN DATA RETRIEVED FROM DB
     return(DataRetrievedFromDB)
     
     
