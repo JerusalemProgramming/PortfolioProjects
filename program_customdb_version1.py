@@ -20,7 +20,7 @@ if __name__ == "__main__":
     ## DATA OF VARIABLES TO INSERT TO DB
     Data2Insert2DB = ListOfDictionariesFromCSV
     
-    ## CALL MODULE.FUNCTION - fn_Connect2MongoDB(); CONNECT TO MONGO DB SERVER WITH CLIENT VARIABLE
+    ## CALL MODULE.FUNCTION - fn_Connect2MongoDBServer(); CONNECT TO MONGO DB SERVER WITH CLIENT VARIABLE
     MongoDBClient = mod_Connect2MongoDBServer.fn_Connect2MongoDBServer()
     print("\n")
     print("WITHIN PROGRAM:  type(MongoDBClient) = ", type(MongoDBClient))
