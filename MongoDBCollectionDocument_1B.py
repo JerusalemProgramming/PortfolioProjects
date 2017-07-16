@@ -3,9 +3,9 @@ MongoDBCollectionDocument_1B = { ## PYTHON DICTIONARY OBJECT // MONGO DB DOCUMEN
 	'Item_ID_NameOfDealer' : 'A_1234567',  ## Internal Item ID Number used by Dealer
 	'Item_Path2Picture' : '/images/img1.jpg', ## Computer file path to image/picture file of the Item
 	'Item_ID_IAA' : 'NA', ## ID Number used by the Israel Antiquities Authority (IAA) to catalog and track Items from many separate Dealers
-	'Item_IsImport' : 'NA', ## Is the Item an import thus requiring Import Approval (IA) ID number (below)
+	'Item_IsImport' : 'NA', ## Is the Item an import(?) thus requiring Import Approval (IA) ID number (below)
 	'Item_ID_IA' : 'NA', ## If the Item is an import, then this is the Import Approval (IA) ID number.
-	'Item_IsExport' : 'NA', ## Is the Item an export thus requiring Export Approval (EA) ID number (below)
+	'Item_IsExport' : 'NA', ## Is the Item an export(?) thus requiring Export Approval (EA) ID number (below)
 	'Item_ID_EA' : 'NA', ## If the Item is an export, then this is the Export Approval (EA) ID number
 	'Item_Civilization' : 'NA', ## Ancient civilization info of the Item
 	'Item_Title' : 'NA', ## Title info of the Item
