@@ -39,3 +39,9 @@ if __name__ == "__main__":
     GetAllDataFromDB = mod_GetAllDataFromDB.fn_GetAllDataFromDB(db)
     print("\n")
     print("WITHIN PROGRAM:  type(GetAllDataFromDB) = ", type(GetAllDataFromDB))
+    
+    
+    
+    
+    
+    
