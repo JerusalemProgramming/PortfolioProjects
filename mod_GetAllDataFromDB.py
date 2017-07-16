@@ -23,4 +23,4 @@ def fn_GetAllDataFromDB(db):
 #    ## EXCEPTION / ERROR
 #    ## TEST OUTPUT
 #    print("\n")
-#    print("WTF - Something went wrong - Could not insert item(s) to DB!")
+#    print("WTF - Something went wrong - Could not get/retrieve item(s) from DB!")
